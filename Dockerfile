@@ -1,4 +1,4 @@
-FROM microsoft/windowsservercore
+FROM mcr.microsoft.com/windows/servercore
 MAINTAINER smithyuk1@live.co.uk
 
 RUN powershell -NoProfile -Command \
